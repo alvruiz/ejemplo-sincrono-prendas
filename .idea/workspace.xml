@@ -5,55 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="563a40bb-d2a2-4fb4-9445-3f55e55845a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/.idea/server-config-prendas-sincronas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/clothing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/server-config-prendas-sincronas/users.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/application/services/CreateGarment.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/application/services/CreateGarment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/application/services/DeleteGarment.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/application/services/DeleteGarment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/application/services/GetClothing.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/application/services/GetClothing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/application/services/GetGarmentByID.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/application/services/GetGarmentByID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/application/services/UpgradeDowngradeQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/application/services/UpgradeDowngradeQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/domain/model/Garment.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/domain/model/Garment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/domain/model/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/domain/model/Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/domain/ports/in/CreateGarmentUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/domain/ports/in/CreateGarmentUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/domain/ports/in/DeleteGarmentUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/domain/ports/in/DeleteGarmentUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/domain/ports/in/GetClothingUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/domain/ports/in/GetClothingUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/domain/ports/in/GetGarmentByIDUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/domain/ports/in/GetGarmentByIDUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/domain/ports/in/UpgradeDowngradeQuantityUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/domain/ports/in/UpgradeDowngradeQuantityUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/domain/ports/out/GarmentPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/domain/ports/out/GarmentPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/infrastructure/DTO/GarmentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/infrastructure/DTO/GarmentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/infrastructure/DTO/GarmentIdentifierDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/infrastructure/DTO/GarmentIdentifierDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/infrastructure/adapter/in/web/controller/ClothingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/infrastructure/adapter/in/web/controller/ClothingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/infrastructure/adapter/in/web/controller/ClothingControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/infrastructure/adapter/in/web/controller/ClothingControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/infrastructure/adapter/out/persistence/GarmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/infrastructure/adapter/out/persistence/GarmentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/infrastructure/adapter/out/persistence/GarmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/infrastructure/adapter/out/persistence/GarmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/infrastructure/adapter/out/persistence/GarmentPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/infrastructure/adapter/out/persistence/GarmentPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/users/infrastructure/adapter/out/persistence/GarmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothing/src/main/java/com/hiberus/clothing/infrastructure/adapter/out/persistence/GarmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/application/services/CreateGarment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/application/services/DeleteGarment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/application/services/GetClothing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/application/services/GetGarmentByID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/application/services/UpgradeDowngradeQuantity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/domain/model/Garment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/domain/model/Size.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/domain/ports/in/CreateGarmentUseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/domain/ports/in/DeleteGarmentUseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/domain/ports/in/GetClothingUseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/domain/ports/in/GetGarmentByIDUseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/domain/ports/in/UpgradeDowngradeQuantityUseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/domain/ports/out/GarmentPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/infrastructure/DTO/GarmentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/infrastructure/DTO/GarmentIdentifierDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/infrastructure/adapter/in/web/controller/ClothingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/infrastructure/adapter/in/web/controller/ClothingControllerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/infrastructure/adapter/out/persistence/GarmentEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/infrastructure/adapter/out/persistence/GarmentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/infrastructure/adapter/out/persistence/GarmentPersistenceAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothing/target/classes/com/hiberus/users/infrastructure/adapter/out/persistence/GarmentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/hiberus/users/infrastructure/adapter/in/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/hiberus/users/infrastructure/adapter/in/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/hiberus/users/infrastructure/adapter/in/web/controller/UserControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/hiberus/users/infrastructure/adapter/in/web/controller/UserControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +84,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hiberus.ConfigServer" />
+      <module name="config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hiberus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hiberus.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hiberus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hiberus.GatewayServerApplication" />
       <module name="gateway-server" />
@@ -152,39 +142,13 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml.clothing-db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="clothing-db" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.users-db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="users-db" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GatewayServerApplication" />
         <item itemvalue="Application.ClothingApplication" />
+        <item itemvalue="Application.ConfigServer" />
+        <item itemvalue="Application.GatewayServerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.UsersApplication" />
-        <item itemvalue="Docker.docker-compose.yml.users-db: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.clothing-db: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>

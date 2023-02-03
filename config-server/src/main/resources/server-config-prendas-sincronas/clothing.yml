@@ -1,0 +1,57 @@
+server:
+  port: 8081
+
+spring:
+  config:
+    activate:
+      on-profile: default
+  application:
+    name: clothing
+  datasource:
+    url: jdbc:mysql://${clothing-db:localhost}:3308/clothing-db
+    username: root
+    password: 12345
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create
+
+app:
+  environment:
+
+
+--- # Testing configuration
+
+server:
+  port: ${random.int(5000,5100)}
+
+spring:
+  cloud:
+    service-registry:
+      auto-registration:
+        enabled: false
+  config:
+    activate:
+      on-profile: test
+  application:
+    name: clothing
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: root
+    password: 12345
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    enabled: false
+
+app:
+  environment:
