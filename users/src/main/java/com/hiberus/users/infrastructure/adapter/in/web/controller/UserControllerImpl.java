@@ -2,6 +2,7 @@ package com.hiberus.users.infrastructure.adapter.in.web.controller;
 
 import com.google.gson.Gson;
 import com.hiberus.users.domain.model.User;
+import com.hiberus.clothing.domain.ports.in.*;
 import com.hiberus.users.domain.ports.in.*;
 import com.hiberus.users.infrastructure.adapter.out.persistence.UserDTO;
 import lombok.RequiredArgsConstructor;

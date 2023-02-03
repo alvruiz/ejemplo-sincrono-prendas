@@ -1,5 +1,6 @@
-package com.hiberus.users.infrastructure.adapter.out.persistence;
+package com.hiberus.clothing.infrastructure.adapter.out.persistence;
 
+import com.hiberus.clothing.domain.model.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,15 +11,17 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="users")
+@Table(name="clothing")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserEntity {
+public class GarmentEntity {
 
     @Id
-    private String dni;
+    private String id;
     private String name;
+    private int quantity;
+    private Size size;
 
 
 

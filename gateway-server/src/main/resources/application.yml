@@ -9,6 +9,6 @@ spring:
             - Path=/clothing/**
         - id: users
           # si se despliega en docker: uri: lb://users
-          uri: http://localhost:8082
+          uri: http://localhost:8080
           predicates:
             - Path=/users/**
